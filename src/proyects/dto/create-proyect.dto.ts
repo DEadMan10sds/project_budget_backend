@@ -15,7 +15,7 @@ export class CreateProyectDto {
 
   @IsString()
   @MinLength(1)
-  bitracker_id: string;
+  external_id: string;
 
   @IsString()
   @MinLength(1)

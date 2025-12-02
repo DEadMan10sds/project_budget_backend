@@ -53,7 +53,7 @@ import { ActivityLogModule } from './activity-log/activity-log.module';
     UsersModule,
     ErrorHandlingModule,
     AuthModule,
-    CrolApiModule,
+    //CrolApiModule,
     CommonModule,
     ProyectsModule,
     //SatModule,

@@ -21,11 +21,11 @@ export class CrolApiService {
     private readonly http: AxiosAdapter,
     private readonly errorHandler: ErrorHandlingService,
   ) {
-    void this.updateOnDb();
+    //void this.updateOnDb();
     new CronJob(
       '0 0 */2 * * *',
       () => {
-        void this.updateOnDb();
+        //void this.updateOnDb();
       },
       null,
       true,

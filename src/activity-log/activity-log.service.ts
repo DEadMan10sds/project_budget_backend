@@ -46,7 +46,7 @@ export class ActivityLogService {
       ({ project: proyect, user: userObj, product: productObj, ...data }) => ({
         ...data,
         proyect: proyect.name,
-        proyectCode: proyect.bitracker_id,
+        proyectCode: proyect.external_id,
         user: `${userObj.name} ${userObj.surname}`,
         product: productObj.name,
       }),
